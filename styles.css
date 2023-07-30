@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  #logo {
+    display: block;
+    margin: auto;
+    width: 12rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+  
+  #score {
+    padding: 4rem;
+  }
+  
+  .teams {
+    padding: 4rem 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    display: inline-block;
+    margin: 3rem;
+  }
+  
+  .teams > p {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .teams span {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .btn {
+    margin-bottom: 3rem;
+  }
+  
+  .btn button {
+    width: 5rem;
+    background-color: transparent;
+    border: 0px;
+    margin: 1rem 1.5rem;
+  }
+  
+  .btn img {
+    width: 100%;
+  }
+  
+  .btn *:hover {
+    cursor: pointer;
+  }
+  
+  #team1 {
+    background-color: #2157a3;
+    color: white;
+  }
+  
+  #team2 {
+    background-color: #459743;
+    color: white;
+  }
+  
+  .over {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .balls {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0.2rem;
+  }
+  
+  .balls > p {
+    color: black;
+    font-size: 1.65rem;
+    font-weight: bolder;
+  }
